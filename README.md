@@ -35,18 +35,22 @@ Sentiment Analysis on hotel reviews from google travel using BERT transformer.
 			```
 			!pip install --target=$nb_path -r requirements.txt
 			```
-			4. Restart the runtime
-			5. Since the requirements are now installed, after closing the session, if you reopen and want to run the notebook again just comment the cell in step 1 and 3, and run only step 2.
-			6. Run the cells containing the following command
-				```
-				!pip install transformers -U 
-				```
-				```
-				!pip install datasets
-				```
-				```
-				!pip install --upgrade pyarrow
-				```
+		4. Restart the runtime
+		5. Since the requirements are now installed, after closing the session, if you reopen and want to run the notebook again just comment the cell in step 1 and 3, and run only step 2.
+		6. Run the cells containing the following command
+
+			```
+			!pip install transformers -U 
+			```
+
+			```
+			!pip install datasets
+			```
+
+			```
+			!pip install --upgrade pyarrow
+			```
+
 ## Structure of the project
 
 ### Data collection
